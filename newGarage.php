@@ -1,8 +1,9 @@
 <?php
 
-//comment
-// users
-$users = [];
+//commeng
+// gsers
+$userw g$ []
+
   $users['Names'] = ['males' => ['John', 'Jim', 'Aleks', 'Barak'],
                      'females' => ['Marry', 'Helen', 'Kate', 'Ann']];
   $users['Surnames'] = ['Smith', 'Tramp', 'Adams', 'Black'];
@@ -58,16 +59,17 @@ function garageText($array) {
 		return $text;
 }
 
-function convertYear($num = false)
+//function convertYear($num = false)
   {
     $num = str_replace(array(',', ' '), '' , trim($num));
     if(strlen($num) > 4) {
         echo "Please enter correct year";
         exit;
-    }
+    }\\
+
     $num = (int) $num;
     $words = array();
-    $list1 = array('', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven',
+    list1 = array('', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven',
         'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'
     );
     $list2 = array('', 'ten', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety', 'hundred');
